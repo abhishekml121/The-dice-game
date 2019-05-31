@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<link rel="stylesheet" media="all" href="dice_game.css" />
+
+    <title> Title </title>
+    
+</head>
+
+
+<body>
+    <!-- HTML   HTML   HTML   HTML-->
+    <main>
+        <div id="main_div">
+            <h1>The dice game <br><span>Perfect game for two players...</span></h1>
+
+            <section>
+
+                <aside id="player1" class="aside">
+                    <h2>Score card</h2>
+                    <p>you have :<span id="dice1_player1"></span> <span id="dice2_player1"></span></p>
+                    <h3>Total score : <span id="totalscore_span_player1"></span></h3>
+                </aside>
+
+                <aside id="controls_for_each_players" class="aside controls">
+                    <div>
+                       <span id="roll_p1"></span>
+                        <input type="button" value="Start the game" id="start_game">
+                        <input type="button" value="P1" id="p1" title="disabled" disabled>
+                        <input type="button" value="P2" id="p2" title="disabled" disabled>
+
+                        <input type="button" value="Leave the game" id="leave_game" title="disabled" disabled>
+                        <span id="roll_p2"></span>
+                        <article id="win_info"></article>
+                        <div id="img_info"></div>
+
+                    </div>
+                </aside>
+
+                <aside id="player2" class="aside">
+                    <h2>Score card</h2>
+                    <p>you have :<span id="dice1_player2"></span> <span id="dice2_player2"></span></p>
+                    <h3>Total score : <span id="totalscore_span_player2"></span></h3>
+                </aside>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- JAVASCRIPT   JAVASCRIPT   JAVASCRIPT-->
+    <script src="dice_game.js"></script>
+</body>
+
+</html>
